@@ -1,4 +1,5 @@
 name: Hello world action
+on: [push]
 jobs:
   hello_world_job: # job id
     runs-on: ubuntu-latest
